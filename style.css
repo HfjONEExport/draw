@@ -1,0 +1,188 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    flex-direction: column;
+}
+
+.center{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+.topleft{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    gap: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    background-color: black;
+    flex-direction: column;
+    border: 15px solid black;
+}
+
+#slider{
+    margin: 0px;
+    writing-mode: vertical-lr;
+    -webkit-appearance: none;
+    width: 40px;
+    height: 600px;
+    background: #ffffff;
+    outline: none;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    background: black;
+    cursor: pointer;
+    border: 5px white solid;
+}
+#slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    background: black;
+    cursor: pointer;
+    border: 5px white solid;
+}
+
+#theCanvas{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+}
+
+.bottom{
+    width: 100%;
+}
+#pensize{
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
+}
+form{
+    width: 100%;
+}
+#download{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    border: 5px white solid;
+    color: #000000;
+    font-size: 30px;
+}
+
+.buttons{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 95px;
+}
+.buttons button{
+    height: 40px;
+    width: 40px;
+    border: white 5px solid;
+}
+
+.right{
+    flex-direction: column;
+    height: 100%;
+}
+.colorpicker{
+    height: 100%;
+    width: 100%;
+}
+#colorpicker{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 5px white solid;
+    padding: 0;
+}
+#colorpicker::-webkit-color-swatch-wrapper{
+    padding: 0;
+}
+#colorpicker::-webkit-color-swatch {
+  border: none;
+}
+#colorpicker::-moz-color-swatch {
+  border: none;
+}
+
+#red{
+    background-color: #FF0000;
+}
+#redorange{
+    background-color: #FF4000;
+}
+#orange{
+    background-color: #FF8000;
+}
+#yelloworange{
+    background-color: #FFc000;
+}
+#yellow{
+    background-color: #FFFF00;
+}
+#yellowgreen{
+    background-color: #80FF00;
+}
+#green{
+    background-color: #00FF00;
+}
+#bluegreen{
+    background-color: #00FF80;
+}
+#cyan{
+    background-color: #00FFFF;
+}
+#cyanblue{
+    background-color: #0080FF;
+}
+#blue{
+    background-color: #0000FF;
+}
+#purple{
+    background-color: #8000FF;
+}
+#magenta{
+    background-color: #ff00FF;
+}
+#white{
+    background-color: #FFFFFF;
+}
+#gray1{
+    background-color: #c0c0c0;
+}
+#gray2{
+    background-color: #808080;
+}
+#gray3{
+    background-color: #404040;
+}
+#black{
+    background-color: #000000;
+}

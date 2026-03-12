@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Draw!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    </head>
+    <body class="center">
+        <div class="container center">
+            <div class="center">
+                <input type="range" max="50" min="1" step="1" id="slider" value="5">
+                <canvas id="theCanvas"></canvas>
+                <div class="topleft right">
+                    <div class="buttons topleft">
+                        <button id="red" onclick="red()"></button>
+                        <button id="redorange" onclick="redorange()"></button>
+                        <button id="orange" onclick="orange()"></button>
+                        <button id="yelloworange" onclick="yelloworange()"></button>
+                        <button id="yellow" onclick="yellow()"></button>
+                        <button id="yellowgreen" onclick="yellowgreen()"></button>
+                        <button id="green" onclick="green()"></button>
+                        <button id="bluegreen" onclick="bluegreen()"></button>
+                        <button id="cyan" onclick="cyan()"></button>
+                        <button id="cyanblue" onclick="cyanblue()"></button>
+                        <button id="blue" onclick="blue()"></button>
+                        <button id="purple" onclick="purple()"></button>
+                        <button id="magenta" onclick="magenta()"></button>
+                        <button id="white" onclick="white()"></button>
+                        <button id="gray1" onclick="gray1()"></button>
+                        <button id="gray2" onclick="gray2()"></button>
+                        <button id="gray3" onclick="gray3()"></button>
+                        <button id="black" onclick="black()"></button>
+                    </div>
+                    <div class="colorpicker">
+                        <input type="color" id="colorpicker">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom center">
+                <div id="pensize" class="center"></div>
+                <button id="download" class="center">D O W N L O A D</button>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
